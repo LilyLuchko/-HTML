@@ -1,0 +1,39 @@
+body {
+  width: 350px;
+  margin: 0;
+  padding: 0 10px;
+
+  font-size: 14px;
+  font-family: "Arial", sans-serif;
+}
+table {
+ border-collapse: collapse;
+}
+td {
+     padding: 10px;
+     border-bottom: 1px solid lightgray; 
+}
+th {
+  color: white;
+    padding: 10px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.row1 {
+  text-align: left;
+}
+.row2 {
+     text-align: center;
+}
+.row3 {
+       text-align: right;
+}
+.lightyellow {
+  background-color: lightyellow;
+}  
+.lightblue {
+  background-color: lightblue;
+}
+.darkcyan {
+  background-color: darkcyan;
+}
