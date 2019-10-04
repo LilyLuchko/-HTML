@@ -1,0 +1,24 @@
+/* Базовые стили, изменять не нужно */
+.block {
+  background-color: rgba(0, 255, 255, 0.2);
+  
+  margin: 20px;
+}
+
+/* Пользовательские стили */
+.block-1 {
+margin: 0px;
+border: 20px solid white;
+width: 480px;
+
+}
+
+.block-2 {
+padding: 20px;
+width: 400px;
+
+}
+
+.text-input {
+box-sizing: border-box;
+}
