@@ -1,0 +1,121 @@
+html {
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+}
+
+.scene {
+  position: relative;
+  width: 260px;
+  height: 260px;
+  background: none;
+  box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+div {
+  display: inline-block;
+  background-color: white;
+}
+
+
+/* горизонтальные элементы */
+.h {
+  width: 50px;
+  height: 10px;
+}
+
+.h3 {
+  width: 40px;
+}
+
+/* вертикальные элементы */
+.v {
+  width: 10px;
+  height: 50px;
+}
+.v.v1 {
+ position: absolute;
+ top: 170px;
+ left: 20px;
+}
+.v.v2{
+ position: absolute;
+ top: 170px;
+ left: 60px;
+}
+.h.h1 {
+ position: absolute;
+ top: 190px;
+ left: 20px;
+}
+.v.v3 {
+  position: absolute;
+  top: 170px;
+  left: 100px;
+}
+.h.h2 {
+ position: absolute;
+ top: 170px;
+ left: 80px;
+}
+.v.v4 {
+  position: absolute;
+  top: 170px;
+  left: 140px;
+  }
+  .v.v5{
+   position: absolute;
+   top: 170px;
+   left: 180px;
+  }
+/* уголки */
+.corner-top {
+  position: absolute;
+  top: 170px;
+  left: 150px;
+  background: none;
+  border: 15px solid white;
+  border-top-width: 20px;
+  border-top-color: transparent;
+  border-bottom-width: 0;
+}
+
+.corner-bottom {
+  position: absolute;
+  top: 190px;
+  left: 150px;
+  background: none;
+  border: 15px solid transparent;
+  border-top-width: 20px;
+  border-top-color: white;
+  border-bottom-width: 0;
+}
+.v.v5 {
+position: absolute;
+top: 170px;
+left: 180px;
+}
+.v.v6{
+ position: absolute;
+ top: 170px;
+ left: 200px;
+}
+.h.h3 {
+ position: absolute;
+ top: 210px;
+ left: 200px;
+}
+/* лого */
+.logo {
+  position: absolute;
+  top: 80px;
+  left: 87px;
+  width: 64px;
+  height: 64px;
+  background-image: url("logo.png");
+  background-repeat: no-repeat;
+  background-color: transparent;
+}
