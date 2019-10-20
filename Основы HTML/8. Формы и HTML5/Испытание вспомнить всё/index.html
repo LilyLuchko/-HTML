@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Испытание: формы — вспомнить всё</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <form action="https://echo.htmlacademy.ru" method="post">
+      <label for="firstname">Имя</label>
+      <input type="text" name="firstname">
+      <div class="half-width">
+        <label for="birthday">Дата рождения</label>
+        <input type="text" class="date" name="birthday">
+      </div>
+      <div class="half-width">
+       <label for="color">Цвет</label>
+       <select name="color">
+         <option value="orange">Рыжий</option>
+         </select>
+      </div>
+      
+      <label><input type="checkbox" name="takethecat" value="takethecat">Разрешать гладить</label>
+      
+      <label for="dinner">Секретное блюдо</label>
+      <input type="text" name="dinner">
+      <div class="buttons">
+        <!--<label for="safe">Сохранить</label>-->
+        <input type="submit" value="Сохранить">
+      </div>
+    </form>
+  </body>
+</html>
