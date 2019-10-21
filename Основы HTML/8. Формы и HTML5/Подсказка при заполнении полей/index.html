@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Подсказка при заполнении полей</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="keksik-style.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="page-header">Форма личных данных</header>
+    <main>
+      <form action="https://echo.htmlacademy.ru" method="post">
+        <fieldset>
+          <legend>Заявление на получение визы</legend>
+          <label for="passport">Номер котопаспорта</label>
+          <input type="text" placeholder="Формат номера XXX-XXXXX" id="passport" name="passport" pattern="[0-9]{3}-[0-9]{5}" required>
+          <label for="tel">Номер телефона</label>
+          <input type="tel" placeholder="Формат номера X-XXX-XXX" id="tel" name="tel" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}" required>
+        </fieldset>
+        <div class="buttons">
+          <input type="submit" value="Оформить">
+        </div>
+      </form>
+    </main>
+    <footer class="page-footer"></footer>
+  </body>
+</html>

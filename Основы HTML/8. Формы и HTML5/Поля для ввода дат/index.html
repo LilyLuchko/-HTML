@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Другие поля для ввода дат</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="keksik-style.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="page-header">Форма бронирования отеля</header>
+    <main>
+      <form action="https://echo.htmlacademy.ru" method="post">
+        <label for="search">Название города</label>
+        <input type="search" id="search" name="search" value="Осло, Норвегия">
+        <div class="one-third-width">
+          <label for="day">Число</label>
+          <input type="number" min="1" max="31" name="day">
+        </div>
+        <div class="two-third-width">
+          <label for="month">Месяц</label>
+          <input type="month" name="month">
+        </div>
+        <div class="buttons">
+          <input type="submit" value="Забронировать">
+        </div>
+      </form>
+    </main>
+    <footer class="page-footer"></footer>
+  </body>
+</html>
